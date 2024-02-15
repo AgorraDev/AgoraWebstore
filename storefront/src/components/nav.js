@@ -59,7 +59,9 @@ function Navigation() {
         <Container fluid className='hero2-bg position-relative'>
           <div class="container col-xxl-12 px-3">
             <div class="row g-3 py-5 position-absolute">
-              <div class="col-12 col-lg-12 "><img alt="Content"class="hero2-content-img"></img></div>
+              <div class="col-12 col-lg-12 hero2-content">
+                <div alt="Content"class="hero2-content-img"></div>
+                </div>
             </div>
 
           </div>

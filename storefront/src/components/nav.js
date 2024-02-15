@@ -56,12 +56,20 @@ function Navigation() {
                 </div>
                 </Container>
         </Container>
-        <Container fluid className='hero2-bg position-relative'>
+        <Container fluid className='hero2-bg'>
           <div class="container col-xxl-12 px-3">
-            <div class="row g-3 py-5 position-absolute">
-              <div class="col-12 col-lg-12 hero2-content">
-                <div alt="Content"class="hero2-content-img"></div>
+            <div class="row g-3">
+              <div class="col-6 hero2-content-img">
+                <div class="hero2-content-img">
                 </div>
+              </div>
+              <div class="p-2 col-3 hero2-content">
+                <h1 class="display-8 fw-bold 1h-1 m-2">KOI Tee</h1>
+                <p class="lead">Strength. Courage. Determination.</p>
+                <div class="d-flex col-4 gap-2 d-md-flex justify-content-md-start">
+                  <button type="button" class="btn btn-outline-dark btn-lg px-5 me-md-2">SHOP</button>
+                </div>
+              </div>
             </div>
 
           </div>

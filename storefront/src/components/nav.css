@@ -1,0 +1,50 @@
+
+.hero-bg-img {
+    background: url("C:\Users\theha\Desktop\Webstore_files\DSCF4683.jpg");
+    height: 60em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-content {
+    position: absolute;
+    bottom: 1%;
+    left: 0.5%;
+    color: rgb(245, 245, 245);
+    background-color:rgba(0, 0, 0, 0.85);
+    padding: 2%;
+    border-radius: 4%/15%;
+}
+.hero-content-img {
+    border-radius: 6%/4%;
+}
+#brand {
+    color: rgb(34, 34, 34);
+    font-weight: bolder;
+}
+#link {
+    border-radius: 4%/20%;
+    border-color: rgb(245, 245, 245);
+    background-color: rgb(245, 245, 245);
+
+    color: rgb(14, 14, 14);
+    font-family: monospace;
+    font-weight: 00;
+}
+#link :hover {
+    color: black;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+.hero2-bg {
+    position: relative;
+    background:rgb(255, 242, 197);
+    height: 60em;
+}
+.hero2-content-img {
+    background: url("C:\Users\theha\Desktop\Webstore_files\koiSS.png");
+}

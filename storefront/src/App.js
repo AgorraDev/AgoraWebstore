@@ -4,9 +4,9 @@ import {
   Routes,
   Route        
 } from "react-router-dom";
-import HomePage from './pages/HomePage';
-import ProductPage from './pages/ProductPage';
-import AboutPage from './pages/AboutPage';
+import Home from './pages/home';
+import Products from './pages/products';
+import About from './pages/about';
 
 
 function App() {
@@ -14,9 +14,9 @@ function App() {
     <Router>
       <Routes>
         {/* Route grab: <Route path='' element={} /> */}
-        <Route path='/' element={<HomePage /> } />
-        <Route path='/products' element={<ProductPage />} />
-        <Route path='/about-us' element={<AboutPage />} />
+        <Route path='/' element={<Home /> } />
+        <Route path='/products' element={<Products />} />
+        <Route path='/about-us' element={<About />} />
       </Routes>
     </Router>
   );

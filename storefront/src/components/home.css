@@ -1,0 +1,37 @@
+
+.hero-bg-img {
+    background: url('../img_files/DSCF4683.jpg');
+    height: 66.5em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-content {
+    position: absolute;
+    bottom: 1%;
+    left: 0.5%;
+    color: rgb(245, 245, 245);
+    background-color:rgba(0, 0, 0, 0.85);
+    border-radius: 4%/15%;
+}
+.hero-content-img {
+    border-radius: 6%/4%;
+}
+.hero2-bg {
+    position: absolute;
+    background:url('../img_files/DSC02900.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 66.5em;
+}
+.hero2-content-img {
+    position: absolute;
+}
+.hero2-content {
+    position: absolute;
+    bottom: 1%;
+    left: 0.5%;
+    color: rgb(14, 14, 14);
+    background-color:rgb(248, 248, 248);
+    border-radius: 4%/15%;
+}

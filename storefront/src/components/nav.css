@@ -1,23 +1,3 @@
-
-.hero-bg-img {
-    background: url("C:\Users\theha\Desktop\Webstore_files\DSCF4683.jpg");
-    height: 66.5em;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.hero-content {
-    position: absolute;
-    bottom: 1%;
-    left: 0.5%;
-    color: rgb(245, 245, 245);
-    background-color:rgba(0, 0, 0, 0.85);
-    padding: 2%;
-    border-radius: 4%/15%;
-}
-.hero-content-img {
-    border-radius: 6%/4%;
-}
 #brand {
     color: rgb(34, 34, 34);
     font-weight: bolder;
@@ -38,24 +18,4 @@
 
 @media screen and (max-width: 768px) {
     
-}
-
-.hero2-bg {
-    position: absolute;
-    background:url("C:\Users\theha\Desktop\Webstore_files\DSC02900.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 66.5em;
-}
-.hero2-content-img {
-    position: absolute;
-}
-.hero2-content {
-    position: absolute;
-    bottom: 1%;
-    left: 0.5%;
-    color: rgb(14, 14, 14);
-    background-color:rgb(248, 248, 248);
-    padding: 2%;
-    border-radius: 4%/15%;
 }

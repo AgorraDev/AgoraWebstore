@@ -1,5 +1,5 @@
 import Container from 'react-bootstrap/Container';
-import '../components/home.css';
+import '../style/home.css';
 import React, { useState, useEffect} from 'react';
 import Navigation from '../components/nav';
 import axios from 'axios';

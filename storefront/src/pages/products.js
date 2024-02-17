@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import ProductCard from '../components/productCard.js';
 import Navigation from '../components/nav.js';
-import '../components/products.css';
+import '../style/products.css';
 import React, { useState, useEffect} from 'react';
 import axios from 'axios';
 

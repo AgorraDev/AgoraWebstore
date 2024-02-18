@@ -4,6 +4,7 @@ import Navigation from '../components/nav.js';
 import '../style/products.css';
 import React, { useState, useEffect} from 'react';
 import axios from 'axios';
+import Footer from '../components/footer.js';
 
 function Products() {
     return (
@@ -26,6 +27,7 @@ function Products() {
                 </div>
             </div>       
         </Container>
+        <Footer />
         </>
     );
 }

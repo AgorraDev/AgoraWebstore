@@ -1,7 +1,6 @@
 .footer {
-    display: block;
-    position: absolute;
-    height: 32em;
+    padding-top: 1em;
+    height: 8em;
     background-color: rgb(20, 20, 20);
     color: aliceblue;
 }

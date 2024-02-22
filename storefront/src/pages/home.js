@@ -17,7 +17,7 @@ function Home() {
         <Container fluid className="hero-bg d-flex" load="lazy">
                   <div className="container col-xxl-12 px-3"> 
                   <div className="row g-3 py-5 ">
-                    <div className="col-lg-6 col-12 col-sm-8 py-3 px-3 hero-content">
+                    <div className="col-lg-5 col-12 col-sm-8 py-3 px-3 hero-content">
                       <h1 className="display-8 fw-bold lh-1 mb-2">New collection</h1>
                       <p className="lead col-12">The first drop of apparel from the freshest streetwear brand. Supporting the great outdoors and everything that comes with the enjoyment of nature.</p>
                       <div className="d-flex col-4 gap-2 d-md-flex justify-content-md-start">
@@ -30,7 +30,7 @@ function Home() {
         <Container fluid className='hero2-bg d-flex' loading="lazy">
           <div className="container col-xxl-12 px-3">
             <div className="row g-3 py-5">
-              <div className="col-lg-6 col-12 col-sm-8 py-3 px-3 hero2-content">
+              <div className="col-lg-5 col-12 col-sm-8 py-3 px-3 hero2-content">
                 <h1 className="display-8 fw-bold 1h-1 mb-2">Backprint Koi Tee</h1>
                 <p className="lead col-12">Strength. Courage. Determination. Nature overcomes all obstacles.</p>
                 <div className="d-flex col-4 gap-2 d-md-flex justify-content-md-start">

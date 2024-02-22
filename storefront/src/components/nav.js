@@ -9,7 +9,7 @@ import axios from 'axios';
 
 function NavLogin({isLoggedIn}) {
     if (isLoggedIn) {
-        return <Nav.Link href='#home'><p>AccountNAME</p> </Nav.Link>;
+        return <Nav.Link href='#home' ><p>AccountNAME</p> </Nav.Link>;
     } 
     return <Nav.Link href='#home'><p>Log in</p></Nav.Link>;
 }
@@ -28,11 +28,9 @@ function Navigation() {
                         <Nav.Link  href='about-us'>About</Nav.Link>
                     </Nav>
                       <Navbar.Brand id='brand' className='me-auto'>AGORA</Navbar.Brand>
-                        <Nav id="link" className='align-items-center'>
-                            <NavLogin className='alignSelfCenter'
-                            isLoggedIn={true}
-                            />
-                            <Nav.Link href='#home'>Cart<img src="C:\Users\theha\Desktop\Webstore_files\icons8-shopping-cart-24.png" 
+                        <Nav id="link">
+                            <NavLogin isLoggedIn={true} />
+                            <Nav.Link href='#home'>Cart<img src="../img_files/icons8-shopping-cart-24.png" 
                                                         className="img-fluid" 
                                                         alt=''/>
                                 </Nav.Link>

@@ -3,6 +3,8 @@
     font-weight: bolder;
 }
 #link {
+    display: flex;
+    align-items: center;
     border-radius: 4%/20%;
     border-color: rgb(245, 245, 245);
     background-color: rgb(245, 245, 245);

@@ -21,9 +21,8 @@ function Products() {
                     </div>
                 </div>
                 <div className='row justify-content-center'>
-                    <ProductCard>
-                    </ProductCard>
-                    <ProductCard></ProductCard>
+                    <ProductCard />
+
                 </div>
             </div>       
         </Container>

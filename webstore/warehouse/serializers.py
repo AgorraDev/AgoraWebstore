@@ -1,7 +1,13 @@
 from rest_framework import serializers
-from .models import Product
+from .models import Product, Variant
 
 class ProductSerializer(serializers.ModelSerializer):
     class Meta:
         model = Product
-        fields = ['category', 'name', 'description', 'price', 'onSale']
+        fields = ['id', 'category', 'name', 'description', 'price', 'onSale', 'image', 'alt_text']
+
+class VariantSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Variant
+        fields = ['color', 'size', 'stock']
+

@@ -16,11 +16,11 @@ function Products() {
         <Container fluid className='pagebg' loading="lazy">
             <div className='container product-bg'>
                 <div className='row'>
-                    <div className='col d-flex justify-content-center mt-3'>
+                    <div className='col d-flex justify-content-center mt-5'>
                         <h2 className='fw-bold'>All items</h2>
                     </div>
                 </div>
-                <div className='row justify-content-center'>
+                <div className='row justify-content-start py-5'>
                     <ProductCard />
 
                 </div>

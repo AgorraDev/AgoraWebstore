@@ -30,10 +30,10 @@ function Navigation() {
                       <Navbar.Brand id='brand' className='me-auto'>AGORA</Navbar.Brand>
                         <Nav id="link">
                             <NavLogin isLoggedIn={true} />
-                            <Nav.Link href='#home'>Cart<img src="../img_files/icons8-shopping-cart-24.png" 
+                            <Nav.Link href='#home' >Cart<img src="" 
                                                         className="img-fluid" 
                                                         alt=''/>
-                                </Nav.Link>
+                            </Nav.Link>
                             
                     </Nav>
                 </Container>
